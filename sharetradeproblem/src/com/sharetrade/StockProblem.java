@@ -19,7 +19,7 @@ public class StockProblem {
 		StockProblem stockproblem = new StockProblem(); 
         int price[] = {4, 10, 5, 12, 1, 3, 11, 9, 1, 2}; 
         int size = price.length; 
-        System.out.println("MaximumDifference is " +  
+        System.out.println("Maximum Profit is " +  
         		stockproblem.maxProfit(price, size)); 
 	}
 
